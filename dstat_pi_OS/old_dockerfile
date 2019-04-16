@@ -1,0 +1,14 @@
+# our base image
+FROM ubuntu:latest
+
+RUN apt-get update && apt-get install -y python python-pip
+RUN apt-get install -y gobject-introspection python-gobject
+RUN pip install dstat-interface
+
+RUN apt-get install -y python-gi-cairo
+RUN apt-get install -y gir1.2-gtk  
+RUN pip uninstall matplotlib -y
+RUN apt-get install -y python-matplotlib
+RUN python --version
+RUN python -m dstat_interface.main
+
