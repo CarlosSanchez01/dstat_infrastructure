@@ -11,6 +11,8 @@ Due to the long-term nature of the experiments, the data managemnet should dump 
 
 A server will allow to control the dstat connected to each of the raspberry pi and plot the results according to the configuration.
 
+Use Socket in Python?
+
 
 ### Local wifi network
 
