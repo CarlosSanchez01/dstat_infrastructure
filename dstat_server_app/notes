@@ -1,6 +1,20 @@
 # Socket
 
-https://docs.python.org/3/library/socket.html
+The cool thing about sockets is that they are focused on transferring the *data*, so you can write the client and server code in different languages and it doesn't matter.
+
+[python socket](https://docs.python.org/3/library/socket.html)
+
+[python socket example](https://docs.python.org/release/2.5.2/lib/socket-example.html)
+
+[sockets c++ the geekstuff](https://www.thegeekstuff.com/2011/12/c-socket-programming/)
+
+[node JS websocket](https://www.w3schools.com/nodejs/nodejs_raspberrypi_webserver_websocket.asp)
+
+
+### Youtube channel guide
+
+[Alexander Baran-Harper
+](https://www.youtube.com/watch?v=RlUhDUJfTe8&list=PLNnwglGGYoTvy37TSGFlv-aFkpg7owWrE)
 
 Raspberry pi should be programmed to send/receive through the socket
 
@@ -8,6 +22,12 @@ Raspberry pi should be programmed to send/receive through the socket
 
 cookie.py
 
+#### Node?
+ 
+ [official socket documentation socket.io](https://socket.io/)
+
+
 ## Client side
 
  cookieClient.py
+
