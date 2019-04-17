@@ -1,0 +1,13 @@
+# Socket
+
+https://docs.python.org/3/library/socket.html
+
+Raspberry pi should be programmed to send/receive through the socket
+
+## Raspberry pi as server
+
+cookie.py
+
+## Client side
+
+ cookieClient.py
