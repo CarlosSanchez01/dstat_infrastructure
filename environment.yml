@@ -1,28 +1,7 @@
-# Requirements development dstat
-
-## Conda environment
-
-~~~~
-conda env create -f environment.yml
-~~~~
-
-Activate 
-
-~~~~
-source activate dstat
-~~~~
-
-## Packages
-
-conda-env.yml 
-
-~~~~
 name: dstat
-
 channels:
   - conda-forge
   - defaults
-
 dependencies:
   - anaconda=custom=py27h4a00acb_0
   - ca-certificates=2019.3.9=hecc5488_0
@@ -47,7 +26,5 @@ dependencies:
     - pycairo==1.18.0
     - pycparser==2.19
     - pygobject==3.30.4
-
 prefix: /home/carlos/miniconda3/envs/pythonDstat
 
-~~~~

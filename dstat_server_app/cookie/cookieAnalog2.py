@@ -10,3 +10,4 @@ tempChannel = 0
 
 def getReading(channel):
     # First pull the raw data from the chip
+    rawData = spi.xfer([])
